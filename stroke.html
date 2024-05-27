@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Diagnosis</title>
+    <style>
+        
+       #diagnosis-heading {
+			animation-name: zoomIn;
+			animation-duration: 1s;
+			animation-fill-mode: both;
+			animation-delay: 0.5s;
+		}
+
+		@keyframes zoomIn {
+			from {
+				opacity: 0;
+				transform: scale3d(0.3, 0.3, 0.3);
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+
+		.zoomIn {
+			animation-name: zoomIn;
+			animation-duration: 1s;
+			animation-fill-mode: both;
+			animation-delay: 0.5s;
+		}
+
+		@keyframes slideInLeft {
+			from {
+				transform: translate3d(-100%, 0, 0);
+				visibility: visible;
+			}
+
+			to {
+				transform: translate3d(0, 0, 0);
+			}
+		}
+
+		.slideInLeft {
+			animation-name: slideInLeft;
+			animation-duration: 1s;
+			animation-fill-mode: both;
+			animation-delay: 0.5s;
+		}
+
+		.jumbotron.hero-nature {
+			background-color: #add8e6; 
+		}
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Stroke Risk Diagnosis</a>
+
+    </nav>
+    <div class="jumbotron hero-nature">
+      <div class="text-center">
+    <h1 id="diagnosis-heading">You have been diagnosed with Stroke Risk</h1>
+    <p class="animated zoomIn">The algorithm has diagnosed you with Stroke Risk based on your inputs. Please consult a doctor.</p>
+</body>
+<style>
+body {
+    background-color: #add8e6;
+}
+
+.col-lg-4 {
+    color: Black;
+}
+</style>
+	<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-Gn5370M7qXafP4PQYmZcNepJVXfwsu8HJjZqOU9wCgM8LvivZByPQ2JnXf5t
+    v9J" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-7q3l1pqT7T0oY0whr7NFKQO
+</html>
